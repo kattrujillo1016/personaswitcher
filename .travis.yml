@@ -1,0 +1,22 @@
+language:node_js
+	os:windows
+
+dist:trusty
+	node_js
+#command to install dependancys
+install:
+
+addons:
+	sonarcloud:
+	orginization: "kattrujillo1016"
+	token:
+		secure:${SONAR_TOKEN}
+
+script:
+	
+#need to still add cmds
+
+
+	
+
+
